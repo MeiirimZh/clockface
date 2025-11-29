@@ -1,8 +1,17 @@
+import { Routes, Route } from 'react-router-dom'
+
+import { HomePage } from './pages/HomePage/HomePage'
+import { SettingsPage } from './pages/SettingsPage/SettingsPage'
+
 import './App.css'
 
 function App() {
   return (
     <>
+      <Routes>
+        <Route path="/" element={ <HomePage /> } />
+        <Route path="/settings" element={ <SettingsPage /> }/>
+      </Routes>
     </>
   )
 }
