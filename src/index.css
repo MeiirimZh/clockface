@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 .wrapper {
     width: 100%;
     max-width: 1000px;
